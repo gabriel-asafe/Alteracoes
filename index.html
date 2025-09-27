@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <header>
+        <style>
+            body {
+                background-image: url('imagens/estacionamentoIFBA.jfif');
+                background-size: 100% 100%;
+                
+                }
+            .Titulo{
+                background-image: url('imagens/FundoTituloADS.svg');
+                opacity:0.8;
+                text-align: center;
+                
+            }
+            .Titulo h1{
+               
+                box-shadow: 15px 0 0 0 #0155b4;
+	            background: #004ea7;
+                opacity: 0.8;
+                display: inline;
+                padding: 0px 0 !important;
+                color: #000000;
+                
+            }
+
+
+            .formulario {
+                    
+                    
+                    background: rgba(255, 255, 255, 0.8);
+                    padding: 70px;
+                    border-radius: 30px;
+                    max-width: 800px;
+                    width: 60%;
+                    max-height:67%;
+                    margin: 0 auto;
+                    border-color: black ;
+                padding-top: 0;
+                  
+                }
+
+            html, body {
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+
+            body {
+                background-image: url('imagens/estacionamentoIFBA.jfif');
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+            }
+            nav{
+                background-image: url('imagens/fundoMenu.png');
+            }
+            .nav img{
+                justify-items: right;
+            }
+            .menu{
+                display: flex;
+                justify-content: space-around;
+                
+            }
+            .formulario textarea{
+                width: 100%;
+                height: 50px;
+                opacity: 0.3;
+                border-color: #000000;
+            }
+            .formulario button{
+                
+                color: white;
+                opacity: 0.8;
+                border-radius: 5px;
+                border: 2px solid rgba(0, 0, 0, 0.5);
+                justify-content: center;
+                color: #000000;
+                font-size: 20px;
+                
+              
+            }
+            .formulario h2{
+               text-align: center;
+            }
+          
+            .formulario button:hover {
+                background-color: #1e8100;
+                
+                justify-content: center;
+            }
+            
+            .menu a {
+            padding: 10px 20px;
+            text-decoration: none;
+            color: black;
+            border: 2px solid transparent;
+            border-radius: 5px;
+           
+        }
+
+         .menu a:hover {
+            
+             color: rgb(0, 0, 0);
+            background-color: #017a29;
+           border-radius: 70px;
+          
+        }
+        .TituloFormulario{
+            width: 100%;
+        
+           background-color: #017a29;
+        }
+        </style>
+        <div class="center">
+       
+            <nav class="menu">
+                <img src="imagens/logoIFBA.png" alt="logo" style="width: 100%; max-width: 200px; height: auto;">
+                <a href="https://portal.ifba.edu.br/eunapolis/textos-fixos-campus-eunapolis/reorganizacao/ads">O curso</a>
+                <a href="https://portal.ifba.edu.br/eunapolis/textos-fixos-campus-eunapolis/informacoes-cursos/ppc_ads_novo___2019-1.pdf">Projeto Pedagogico</a>
+                <a href="https://portal.ifba.edu.br/eunapolis/textos-fixos-campus-eunapolis/informacoes-cursos/fluxograma-2019-1.pdf">Fluxograma</a>
+                <a href="https://portal.ifba.edu.br/eunapolis/textos-fixos-campus-eunapolis/informacoes-cursos/matriz-curricular-2019-1.pdf
+                ">Matriz Curricular</a>
+            </nav>
+            <div class="clear"></div>
+        </div>
+    </header>
+<body>
+    <div class="Titulo">
+  
+        <h1> TECNÓLOGO EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS - ÁREA DE PROVAS WEB </h1>
+        </div>    
+     
+      
+    <div class="formulario">
+
+    <form action="recebimentodoformulario.php" method="post">
+      <div class="TituloFormulario">
+        <h2>Questões da prova 1 - WEB</h2>
+      </div>
+      <h3> Quentão 1</h3>
+      <h4> O que você entende por HTML? Qual o papel e importancia dessa ferramenta para o desenvolvimento web?</h4>
+      <textarea></textarea>
+      <h4> Quentão 2</h4>
+      <h4> Qual o papel do Css no desenvolvimento web? O desenvolvimento web existe sem a aplicação do CSS </h4>
+      <textarea></textarea>
+      <h4> Quentão 3</h4>
+      <h4>Quais os grandes diferenciais do javascript em relação ao HTML e CSS? são ferramentas que se auto complementam ou coexistem individualmente?</h4>
+      <textarea></textarea>
+      <h4>Questão 4</h4>
+      <h4>Qual o seu nível de domínio desses recursos? </h4>
+            <div style="display: flex; justify-content: left; width: 100%;">
+                <label>
+                    <input type="radio" name="opcao" value="opcao1"> 1
+                </label>
+                <label>
+                    <input type="radio" name="opcao" value="opcao2"> 2
+                </label>
+                <label>
+                    <input type="radio" name="opcao" value="opcao3"> 3
+                </label>
+                <label>
+                    <input type="radio" name="opcao" value="opcao4"> 4
+                </label>
+            </div>
+
+    <div style="display: flex; justify-content: center; width: 100%;">
+        
+        <button type="submit">Enviar Respostas</button>
+    </div>
+    </form>
+
+  
+</div>
+</body>
+
+<footer style="background-color: gray; text-align: center; padding: 10px; position: fixed; width: 100%; height: 2%; bottom: 0;">
+    <p>copyright ©  - ASI - IFBA - CAMPUS EUNÁPOLIS</p>
+</footer>
+</html>
